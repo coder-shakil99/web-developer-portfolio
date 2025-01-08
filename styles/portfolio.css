@@ -15,6 +15,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 1600px;
+    margin: auto;
+}
 /* Shared Css */
 .text-center{
     text-align: center;
@@ -269,3 +273,65 @@ main{
 .resume-btn{
     margin-top: 40px;
 }
+
+/* footer-section-style */
+.footer-area{
+    padding:130px 230px;
+    background: #FFF8F3;
+}
+/* .footer-container{
+    width: 1140px;
+    margin: 0 auto;
+} */
+ .footer-container{
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+ }
+ .footer-left-content .footer-title{
+    margin-bottom: 30px;
+ }
+ .footer-right-area .footer-title{
+    margin-bottom: 30px;
+ }
+ .footer-left-area{
+    width: 50%;
+ }
+ .footer-left-area p{
+    color: #474747;
+    line-height: 28px;
+    margin: 30px 0;
+    font-weight: 400;
+    width: 562px;
+ }
+ .footer-left-area .footer-social-menu{}
+ .footer-left-area .footer-social-menu ul{
+    display: flex;
+    gap: 30px;
+ }
+ .footer-left-area .footer-social-menu ul li{
+    list-style: none;
+ }
+ .footer-right-area{
+    width: 50%;
+ }
+ .footer-right-area form{}
+ .footer-right-area form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    padding:25px 20px;
+    outline: none;
+
+ }
+ .footer-right-area form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    padding:25px 20px;
+    outline: none;
+    margin-bottom: 30px;
+
+ }
